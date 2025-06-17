@@ -112,7 +112,7 @@ while repeat <= player:
     reset()
     repeat += 1
 
-
+print(f"----------------------{repeat - 1}번 반복한 결과----------------------")
 print(f"바꿔서 이긴 횟수: {change_win}")
 print(f"바꿔서 진 횟수: {change_fail}")
 print(f"안바꿔서 이긴 횟수: {not_change_win}")
